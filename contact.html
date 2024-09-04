@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <nav>
+        <img src="img/logo-alpha.png" class="nav__logo" href="">
+        <ul class="ul_1">
+            <li class="li_1"><a href="index.html" class="nav__link">Home</a></li>
+            <li class="li_1"><a href="how_to_help.html" class="nav__link">How to Help</a></li>
+            <li class="li_1"> <a href="resources.html" class="nav__link">Resources</a></li>
+            <li class="li_1"><a href="About_Us.html" class="nav__link">About Us</a></li>
+            <li class="li_1"> <a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="form-container">
+            <form class="form" name="contact-form" onsubmit="return validateContactForm()" method="post"
+                action="thankyou.html">
+                <section class="form__colored-header">
+                    <p>CONTACT FORM</p>
+                </section>
+                <section class="form--fname">
+                    <label for="fname" class="label">First Name</label>
+                    <input id="fname" class="input" type="text" name="firstname">
+                </section>
+                <section class="form--lname">
+                    <label for="lname" class="label">Last Name</label>
+                    <input id="lname" class="input" type="text" name="lastname">
+                </section>
+                <section class="form--message">
+                    <label for="msg" class="label">Message</label>
+                    <textarea id="msg" class="input" name="message" maxlength=300 minlength=10></textarea>
+                </section>
+                <section class="form--info">
+                    <p>Phone: (704) 971-2300</p>
+                    <p>Email: bridgetohome@gmail.com</p>
+                    <p>Address: 1101 Red Ventures Dr, Fort Mill, SC 29707</p>
+                    <input id="submit" type="submit" value="Submit">
+                </section>
+            </form>
+        </section>
+        <section class="back-container"></section>
+    </main>
+    <footer>
+        <section class="top">
+            <aside class="top--images">
+                <img id="logo" src="img/logo-alpha.png">
+                <section class="top--images--media">
+                    <a href="https://www.instagram.com">
+                        <img src="img/instagram-icon-96.png">
+                    </a>
+                    <a href="https://www.twitter.com">
+                        <img src="img/twitter-icon-96.png">
+                    </a>
+                    <a href="https://www.tiktok.com">
+                        <img src="img/tiktok-icon-96.png">
+                    </a>
+                </section>
+                <section class="top--images--creds">
+                    <img id="charity-logo" src="img/Charity_Navigator_Logo.jpeg">
+                    <img id="bbb-logo" src="img/bbb.png">
+                </section>
+                <section class="top--images--info">
+                    <p>1101 Red Ventures Dr,</p>
+                    <p>Fort Mill, SC 29707</p>
+                    <p>tel: (704) 971-2300</p>
+                </section>
+            </aside>
+            <section class="top--links">
+                <a href="index.html">HOME</a>
+                <a href="donate.html">DONATE</a>
+                <a href="About_Us.html">ABOUT</a>
+                <a href="contact.html">CONTACT</a>
+                <div class="top--links__home">
+                    <a href="">Homelessness</a>
+                    <a href="">Resources</a>
+                    <a href="">Programs</a>
+                    <a href="">Poverty</a>
+                </div>
+                <div class="top--links__donate">
+                    <a href="">Fundraise</a>
+                    <a href="">Grants</a>
+                    <a href="">By Card</a>
+                    <a href="">Cryptocurrency</a>
+
+                </div>
+                <div class="top--links__aboutus">
+                    <a href="">Cause</a>
+                    <a href="">Data</a>
+                    <a href="">Research</a>
+                    <a href="">FAQ</a>
+                </div>
+                <div class="top--links__contactus">
+                    <a id="email-popup" href="">Email</a>
+                    <a id="phone-popup" href="">Phone</a>
+                    <a id="mail-popup" href="">Mail</a>
+                    <a id="fax-popup" href="">Fax</a>
+                    <a href=""></a>
+                </div>
+            </section>
+        </section>
+        <section class="bottom">
+            <hr>
+            <p>Privacy Policy ></p>
+            <p>Copyright &copy; 2024 Bridge to Home. All rights reserved.</p>
+            <p>Bridge to Home is a tax-exempt non-profit organization</p>
+            <p>Bridge to Home is a 501(C)(3) organization recognized by the IRS</p>
+            <p>Tax/EID Number: 53-0196518</p>
+            <p></p>
+        </section>
+    </footer>
+    <script src="contactform.js"></script>
+</body>
+
+</html>
